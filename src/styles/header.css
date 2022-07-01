@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'D-DIN DIN-Bold';
+  font-style: normal; 
+  font-weight: normal;
+  src: local('../fonts/D-DIN DIN-Bold'), url('../fonts/D-DIN-Bold.woff') format('woff');
+}
+
+.header {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  /* height: 100px; */
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  transition: height 0.15s linear;
+  z-index: 5;
+}
+
+
+.logo {
+  position: fixed;
+  left: 50px;
+  top: 29px;
+  height: 37px;
+  width: 210px;
+  opacity: 1;
+  transition: opacity 0.15s linear;
+  z-index: 5;
+}
+
+.nav-links {
+  position: fixed;
+  top: 40px;
+  left: 285px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.15s linear;
+}
+
+.btn-underline {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #FFF;
+  margin: 0 11px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0;
+  z-index: 5;
+}
+
+.btn-underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.btn-underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.shop {
+  position: absolute;
+  right: 86px;
+  top: 40px;
+}
+
+@media (max-width: 960px) {
+  .nav-link {
+    visibility: hidden;
+  }
+
+  .logo {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 14px;
+    height: 25px;
+    width: 152px;
+    z-index: 5;
+  }
+}
+

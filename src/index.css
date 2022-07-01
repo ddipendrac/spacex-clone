@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'D-DIN';
+  font-style: normal;
+  font-weight: normal;
+  src:url('fonts/D-DIN.woff') format('woff');
+}
+  
+@font-face {
+  font-family: 'D-DIN DIN-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('fonts/D-DIN DIN-Bold'), url('fonts/D-DIN-Bold.woff') format('woff');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #000;
+  font-family: 'D-DIN Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* .container {
+  background-color: #444;
+  padding: 32px 50px;
+  width: 100vw;
+} */

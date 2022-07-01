@@ -1,0 +1,227 @@
+@font-face {
+  font-family: 'D-DIN Bold';
+  src: url('../fonts/D-DIN-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+.section {
+  width: 100vw;
+  scroll-behavior: smooth;
+}
+
+.section-inner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.section-1 {
+  background-image: url("../images/home/globalstar.jpg");
+} 
+.section-2 {
+  background-image: url("../images/home/sarah-1-mission.jpg");
+} 
+.section-3 {
+  background-image: url("../images/home/update.jpg");
+} 
+.section-4 {
+  background-image: url("../images/home/starship.png");
+} 
+
+.inner-left-bottom {
+  width: 520px;
+  margin-left: 50px;
+  margin-bottom: 92px;
+  animation-duration: 0.17s;
+  animation-iteration-count: infinite;
+}
+
+.animates {
+  width: 100%;
+}
+
+.animate {
+  font-family: 'D-DIN';
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.shadowed {
+  font-family: 'D-DIN Bold';
+  font-size: 48px;
+  line-height: 50px;
+  width: 467px;
+  margin-bottom: 28px;
+  margin-top: -20px;
+}
+
+/* btn swipe bottom top */
+
+.btn-swipe {
+  font-family: 'D-DIN';
+  font-weight: 700;
+  background-color: transparent;
+  height: 50px;
+  width: 168px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  border: 2px solid #FFF;
+  letter-spacing: 0.75px;
+}
+
+.btn-swipe:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleY(0);
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  transform-origin: right top;
+  transition: transform 0.25s ease-out;
+}
+
+.btn-swipe:hover:after {
+  transform: scaleY(1);
+  transform-origin: right bottom;
+}
+
+.btn-swipe:hover .btn-swipe-text {
+  color: #000;
+  transition: color 0.25s ease-in-out;
+}
+
+.btn-swipe-text {
+  z-index: 10;
+  color: #FFF;
+  transition: color 0.25s ease-in-out;
+}
+
+.scrollme {
+  position: absolute;
+  width: 33px;
+  left: 48%;
+  bottom: 60px;
+  z-index: 5;
+  animation-name: scrollme;
+  animation-duration: 3.2s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes scrollme {
+  0% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  
+
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+
+
+  80% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+
+  90% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+}
+
+@keyframes innerLeftBottom {
+  0% {
+    transform: translateY(5px);
+  }
+
+  0% {
+    transform: translateY(0px);
+  }
+}
+
+/* Hide scrollme arrow when w < 900px */
+@media (max-width: 900px) {
+  .scrollme {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 960px) {
+  .inner-left-bottom {
+    width: 420px;
+  }
+
+  .animate {
+    font-size: 16px;
+  }
+
+  .shadowed {
+    margin-bottom: 14px;
+    margin-top: -20px;
+
+    width: 378px;
+  }
+  .long-text {
+    
+  }
+} 
+
+
+@media (max-width: 584px) {
+  .inner-left-bottom {
+    width: 292px;
+  }
+
+  .animates {
+    width: 262px;
+  }  
+
+  .shadowed {
+    width: 262px;
+  }
+} 
+@media (max-width: 584px) {
+  .inner-left-bottom {
+    width: 292px;
+    margin-left: 20px;
+  }
+
+  .animates {
+    width: 262px;
+  }  
+
+  .shadowed {
+    width: 443px;
+    font-size: 36px;
+    line-height: 38px;
+  }
+} 

@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'D-DIN DIN-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('fonts/D-DIN DIN-Bold'), url('../fonts/D-DIN-Bold.woff') format('woff');
+}
+
+.section-update {
+  width: 1044px;
+  margin: 0 auto;
+  color: #FFF;
+}
+
+.updates-top {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-family: 'D-DIN Bold';
+  font-size: 80px;
+  background-image: url("../images/update/update-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.showcase {
+  width: 100%;
+}
+
+.showcase-image {
+  margin-bottom: 70px;
+}
+
+.showcase-date {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.showcase-shadowed {
+  font-size: 32px;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.showcase-description {
+  margin-right: 50px;
+}
+
+.showcase-d {
+  font-size: 16px;
+  line-height: 25.6px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.d-primary {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.showcase-list {
+  margin-bottom: 25px;
+}
+
+.list-item {
+  font-size: 16px;
+  line-height: 25.6px;
+  text-align: left;
+}
+
+.showcase-graph {
+  width: 80%;
+  margin: 0 73px;
+  margin-bottom: 25px;
+}
+
+.image-name {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  margin-bottom: 25px;
+}
+
+.showcase-t {
+  margin-bottom: 27px;
+  text-align: left;
+  font-family: 'D-DIN Bold';
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: #FFF;
+  margin: 60px 0;
+}
+
+
+@media (min-width: 1090px) {
+  .showcase {
+    margin-left: 25px;
+  }
+  .showcase-image {
+    width: 100%;
+  }
+}
+@media (max-width: 1090px) {
+  .section-update {
+    width: 100vw;
+    padding: 0 17px;
+  }
+
+  .showcase-image {
+    width: 94%;
+  }
+}
+
+

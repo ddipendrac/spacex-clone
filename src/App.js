@@ -1,24 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './sections/Home';
+import Header from './components/Header';
+import Hamburger from './components/Hamburger';
+import Footer from './components/Footer';
+
+import Dragon from './pages/Dragon';
+import Falcon9 from './pages/Falcon9';
+import FalconHeavy from './pages/FalconHeavy';
+import HumanSpaceflight from './pages/HumanSpaceflight';
+import Launches from './pages/Launches';
+import Mission from './pages/Mission';
+import Rideshare from './pages/Rideshare';
+import Starship from './pages/Starship';
+
+import Player from './components/Player';
+import Globalstar from './sections/Globalstar';
+import Sarah1 from './sections/Sarah1';
+import StarshipUpdate from './sections/StarshipUpdate';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+      <Header />
+      <Hamburger />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/falcon9' element={<Falcon9 />} />
+          <Route path='/falcon-heavy' element={<FalconHeavy />} />
+          <Route path='/dragon' element={<Dragon />} />
+          <Route path='/starship' element={<Starship />} />
+          <Route path='/human-spaceflight' element={<HumanSpaceflight />} />
+          <Route path='/rideshare' element={<Rideshare />} />
+          <Route path='/mission' element={<Mission />} />
+          <Route path='/launches' element={<Launches />} />
+
+          <Route path='/globalstar' element={<Globalstar />} />
+          <Route path='/sarah1' element={<Sarah1 />} />
+          <Route path='/updates' element={<StarshipUpdate />} />
+
+
+          <Route path='/globalstar/video' element={<Player url="https://www.youtube.com/watch?v=94cClvOFWH4&t=4s" />} />
+          <Route path='/sarah1/video' element={<Player url="https://www.youtube.com/watch?v=lCX-KUCn4A4" />} />
+          
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   );
 }
 

@@ -1,0 +1,132 @@
+
+.section-launch {
+  width: 100vw;
+  padding: 0 50px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.btn-back {
+   width: 120px;
+   height: 20px;
+   margin-top: 97px;
+   margin-bottom: 18px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   text-decoration: none;
+}
+
+.arrow-back {
+  margin-right: 7px;
+  height: 10px;
+}
+
+.btn-back-text {
+  font-size: 12px;
+  color: #FFF;
+}
+
+.btn-back-text:hover {
+  transform: translateX(2px);
+  transition: transform 0.15s linear;
+}
+
+.bg-image {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 50px;
+}
+
+.globalstar-bg-image {
+  background-image: url("../images/home/globalstar.jpg");
+}
+
+.sarah1-bg-image {
+  background-image: url("../images/home/sarah-1-mission.jpg");
+}
+
+.btn-play {
+  margin-left: -5%;
+}
+
+.date {
+  height: 19px;
+  display: flex;
+  margin-bottom: 41px;
+}
+
+.date-text {
+  font-size: 18px;
+  line-height: 19px;
+  color: #8B939B;
+}
+
+.shadowed-launch {
+  font-size: 40px;
+  line-height: 44px;
+  color: #FFF;
+  margin-bottom: 50px;
+  display: flex;
+  width: 100vw;
+}
+
+.description {
+  padding: 15px 0;
+  line-height: 24px;
+  color: #FFF;
+  display: flex;
+  padding-bottom: 16px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.description-1 {
+  margin-right: 20px;
+}
+.description-2 {
+  margin-right: 100px;
+}
+
+.text-primary {
+  font-weight: 600;
+  color: #fff;
+  transition: color 0.17s ease-in;
+  text-decoration: none;
+}
+
+.text-primary:hover {
+  color: #C3C3C3;
+}
+
+@media (max-width: 960px) {
+  .section-launch {
+    padding: 0 20px;
+  }
+
+  .description {
+    flex-direction: column;
+    padding-right: 20px;
+  }
+
+  .description-1 {
+    padding-bottom: 40px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .shadowed {
+    font-size: 30px;
+  }
+}
+
+
