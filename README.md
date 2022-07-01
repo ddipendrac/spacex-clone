@@ -1,7 +1,14 @@
 # https://react-spacex-clone.netlify.app/
 
+# Preview
+
+
+https://user-images.githubusercontent.com/76725537/176867550-4aa362ec-58ad-4fc2-80c8-f961a1113125.mp4
+
+
+
 # About
-  * This is SpaceX website clone.
+  * This is clone of SpaceX website.
   * It is built in react.
   * Responsive: It is responsive site.
   * Some pages are in development and will be updated soon
