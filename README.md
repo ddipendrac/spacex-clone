@@ -1,3 +1,11 @@
+# https://react-spacex-clone.netlify.app/
+
+# About
+  * This is SpaceX website clone.
+  * It is built in react.
+  * Responsive: It is responsive site.
+  * Some pages are in development and will be updated soon
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
