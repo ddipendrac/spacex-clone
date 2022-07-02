@@ -142,7 +142,7 @@ function StarshipUpdate() {
           <div className='showcase-d'>
           SpaceX is proud of our sophisticated and constantly improving design, test, and operational approach to improve space sustainability and safety, which are critical towards accelerating space exploration while bringing Internet connectivity to the globe. We urge all satellite owner/operators to make similar investments in sustainability and safety and make their operations transparent. We encourage all owner/operators to generate high quality propagated ephemeris and covariance for screening by the 18th Space Control Squadron and to openly share this information with others to maximize coordination to ensure a sustainable and safe space environment for the future. Ultimately, space sustainability is a technical challenge that can be effectively managed with the appropriate assessment of risk, the exchange of information, and the proper implementation of technology and operational controls. Together we can ensure that space is available for humanity to use and explore for generations to come.
           </div>
-
+        </div>
           <div className='divider' />
           <img src='./images/update/update7.jpg' className='showcase-image' />
           <div className='showcase-date'>
@@ -325,7 +325,7 @@ function StarshipUpdate() {
             </div>
           </div> */}
           {/* Write above */}
-        </div>
+        
         
       </div>
     </div>

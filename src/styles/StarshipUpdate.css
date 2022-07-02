@@ -109,7 +109,7 @@
 
 @media (min-width: 1090px) {
   .showcase {
-    margin-left: 25px;
+    margin-left: 0px;
   }
   .showcase-image {
     width: 100%;
@@ -118,11 +118,21 @@
 @media (max-width: 1090px) {
   .section-update {
     width: 100vw;
-    padding: 0 17px;
+    padding-left: 24px;
   }
 
   .showcase-image {
     width: 94%;
+  }
+
+  .divider {
+    width: 94%;
+  }
+}
+
+@media (max-width: 500px ) {
+  .showcase-graph {
+    margin-left: 35px;
   }
 }
 

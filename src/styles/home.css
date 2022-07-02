@@ -104,7 +104,7 @@
 }
 
 .btn-swipe-text {
-  z-index: 10;
+  z-index: 3;
   color: #FFF;
   transition: color 0.25s ease-in-out;
 }
