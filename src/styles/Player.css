@@ -1,11 +1,28 @@
 .player-wrapper {
   position: relative;
   padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
-  
+  height: 60vh;
 }
 
 .react-player {
   position: absolute;
   top: 0;
   left: 0;
+  padding: 100px;
 }
+
+@media (max-width: 960px ) {
+  .react-player {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 600px ) {
+  .react-player {
+    padding: 0;
+  }
+}
+
+
+
+

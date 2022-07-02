@@ -7,21 +7,23 @@
 
 .section {
   width: 100vw;
-  scroll-behavior: smooth;
 }
 
 .section-inner {
   position: relative;
-  height: 100vh;
   width: 100%;
+  height: 100vh;
+  padding-left: 50px;
+  padding-bottom: 102px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
   color: #FFF;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  
+  text-align: left;
 }
 
 .section-1 {
@@ -37,32 +39,25 @@
   background-image: url("../images/home/starship.png");
 } 
 
-.inner-left-bottom {
-  width: 520px;
-  margin-left: 50px;
-  margin-bottom: 92px;
-  animation-duration: 0.17s;
-  animation-iteration-count: infinite;
-}
-
 .animates {
-  width: 100%;
+  /* For animation */
 }
 
 .animate {
   font-family: 'D-DIN';
   font-size: 20px;
+  line-height: 38px;
   font-weight: 400;
-  width: 100%;
+  margin-bottom: -40px;
 }
 
 .shadowed {
   font-family: 'D-DIN Bold';
   font-size: 48px;
-  line-height: 50px;
-  width: 467px;
-  margin-bottom: 28px;
-  margin-top: -20px;
+  line-height: 48px;
+  width: 468px;
+  margin-bottom: 32px;
+  
 }
 
 /* btn swipe bottom top */
@@ -176,52 +171,41 @@
 }
 
 @media (max-width: 960px) {
-  .inner-left-bottom {
-    width: 420px;
+  .section-inner {
+    padding-bottom: 98px;
+  }
+  
+  .shadowed {
+    width: 378px;
+    font-size: 48px;
+    line-height: 50px;
+    margin-bottom: 14px;
   }
 
   .animate {
     font-size: 16px;
+    line-height: normal;
   }
 
-  .shadowed {
-    margin-bottom: 14px;
-    margin-top: -20px;
-
-    width: 378px;
-  }
-  .long-text {
-    
-  }
 } 
 
 
-@media (max-width: 584px) {
-  .inner-left-bottom {
-    width: 292px;
+@media (max-width: 600px) {
+  .section-inner {
+    width: 100vw;
+    padding-bottom: 71px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-
-  .animates {
-    width: 262px;
-  }  
 
   .shadowed {
-    width: 262px;
-  }
-} 
-@media (max-width: 584px) {
-  .inner-left-bottom {
-    width: 292px;
-    margin-left: 20px;
-  }
-
-  .animates {
-    width: 262px;
-  }  
-
-  .shadowed {
-    width: 443px;
+    width: 250px;
     font-size: 36px;
-    line-height: 38px;
+    line-height: 36px;
+    margin-bottom: 14px;
+  }
+
+  .animate {
+    margin-bottom: -20px;
   }
 } 

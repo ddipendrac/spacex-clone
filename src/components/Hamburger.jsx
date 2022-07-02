@@ -214,8 +214,9 @@ function Hamburger() {
         </div>
         {/* Hide secondary nav-links for wide screen */}
         <style jsx>{`
-          
-         
+          body {
+            overflow-y: ${hamburgerOpen ? 'hidden' : '' };
+          }
         `}
         </style>
     </>
