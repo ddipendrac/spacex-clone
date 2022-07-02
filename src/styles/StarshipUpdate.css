@@ -108,9 +108,6 @@
 
 
 @media (min-width: 1090px) {
-  .showcase {
-    margin-left: 0px;
-  }
   .showcase-image {
     width: 100%;
   }
@@ -131,6 +128,9 @@
 }
 
 @media (max-width: 500px ) {
+  .updates-top {
+    font-size: 50px;
+  }
   .showcase-graph {
     margin-left: 35px;
   }
