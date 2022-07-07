@@ -1,0 +1,245 @@
+
+.overview {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/falcon9/overview.jpg");
+}
+
+.first-overview {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.first-overview-img {
+  background-image: url("../images/falcon9/overview.jpg");
+}
+.first-engines-img {
+  background-image: url("../images/falcon9/engines.jpg");
+}
+.first-landing-img {
+  background-image: url("../images/falcon9/legs.jpg");
+}
+
+.second-stage {
+  background-image: url("../images/falcon9/stage2.jpg");
+}
+
+.interstage {
+  background-image: url("../images/falcon9/interstage.jpg");
+}
+.payload-fairing {
+  background-image: url("../images/falcon9/payload.jpg");
+}
+.payload-dragon {
+  background-image: url("../images/falcon9/dragon.jpg");
+}
+
+/* BG image for merlin */
+.merlin-sea-level {
+  background-image: url("../images/falcon9/sealevel.jpg");
+}
+
+.merlin-vacuum {
+  background-image: url("../images/falcon9/vacuum.jpg");
+}
+
+.overview-text-1 {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.overview-text-2 {
+  font-size: 48px;
+  line-height: 48px;
+  font-family: 'D-DIN Bold';
+  margin-bottom: 30px;
+}
+
+.overview-values {
+  width: 520px;
+  height: 58px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'D-DIN Bold';
+}
+
+.value {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.overview-text-primary {
+  color: #868686;
+}
+
+.overview-divider {
+  height: 1px;
+  width: 520px;
+  background-color: #515150;
+}
+
+/* First Stage styles */
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 35px;
+  padding-left: -10px;
+}
+
+.btn-slide {
+  width: fit-content;
+  background-color: transparent;
+  color: #838383;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: 'D-DIN Bold';
+  border: none;
+  cursor: pointer;
+}
+
+.btn-slide:hover {
+  color: #FFF;
+  transition: color 0.35s ease;
+}
+
+.active {
+  color: #FFF;
+}
+
+.vertical-line {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 14px;
+  color: #838383;
+}
+
+.first-stage-desc {
+  width: 442px;
+  font-size: 16px;
+  line-height: 25.6px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.btn-reusability {
+  font-size: 16px;
+  font-family: 'D-DIN Bold';
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow-right img {
+  height: 10px;
+  padding-left: 3px;
+  transition: transform 0.27s ease;
+}
+
+.btn-reusability:hover .arrow-right img {
+  transform: translateX(3px);
+}
+
+
+@media (max-width: 1184px) {
+  .overview-values {
+    width: 420px;
+  }
+
+  .overview-divider {
+    width: 420px;
+  }
+}
+@media (max-width: 944px) {
+  .overview-values {
+    opacity: 0;
+    width: 0;
+  }
+
+  .overview-divider {
+    opacity: 0;
+    width: 0;
+  }
+
+  .btn-reusability {
+    opacity: 0;
+    width: 0;
+  }
+
+  .buttons {
+    opacity: 0;
+    width: 0;
+  }
+
+  .first-stage-desc {
+    opacity: 0;
+    width: 0;
+  }
+
+  .overview {
+    justify-content: flex-end;
+  }
+
+  .overview-text-1 {
+    position: absolute;
+    bottom: 55px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'D-DIN Bold';
+  }
+  .overview-text-2 {
+    position: absolute;
+    bottom: -18px;
+  }
+
+  .text-grid {
+    opacity: 0;
+    width: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .overview-text-1 {
+    font-size: 15px;
+    left: 60px;
+  }
+
+  .overview-text-2 {
+    font-size: 32px;
+    left: 60px;
+  }
+}

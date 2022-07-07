@@ -1,0 +1,139 @@
+.carousel {
+  z-index: 1;
+}
+
+.slide-next {
+  position: absolute;
+  background-color: transparent;
+  bottom: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slide-next-icon {
+  right: 50px;
+}
+
+.slide-prev-icon {
+  z-index: 20;
+  left: 50px;
+}
+
+.bg-img {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.bg-img-1 {
+  background-image: url("../images/falcon9/test.webp");
+}
+.bg-img-2 {
+  background-image: url("../images/falcon9/iridium8.jpg");
+}
+.bg-img-3 {
+  background-image: url("../images/falcon9/radarsat.jpg");
+}
+.bg-img-4 {
+  background-image: url("../images/falcon9/cape.webp");
+}
+.bg-img-5 {
+  background-image: url("../images/falcon9/moonrise.webp");
+}
+.bg-img-6 {
+  background-image: url("../images/falcon9/complex39.jpg");
+}
+.bg-img-7 {
+  background-image: url("../images/falcon9/separate.webp");
+}
+.bg-img-8 {
+  background-image: url("../images/falcon9/iridium5.jpg");
+}
+.bg-img-9 {
+  background-image: url("../images/falcon9/droneship.webp");
+}
+.bg-img-10 {
+  background-image: url("../images/falcon9/liftoff.jpg");
+}
+.bg-img-11 {
+  background-image: url("../images/falcon9/vandenberg.webp");
+}
+.bg-img-12 {
+  background-image: url("../images/falcon9/flight.jpg");
+}
+
+.img-text {
+  background-color: #000;
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 10;
+}
+
+.slide-description {
+  width: 583px;
+}
+
+@media (max-width: 944px) {
+  .slide-next {
+    bottom: 50px;
+    height: 12px;
+  }
+
+  .slide-description {
+    width: 400px;
+
+  }
+}
+
+@media (max-width: 830) {
+  .slide-description {
+    width: 457px;
+  }
+}
+
+@media (max-width: 584px) {
+  .slide-description {
+    padding: 10px 0;
+    width: 320px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .bg-img {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .slide-description {
+    padding: 20px 0;
+    width: 240px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .bg-img {
+    height: 70vh;
+  }
+}

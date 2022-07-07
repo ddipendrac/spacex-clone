@@ -1,0 +1,392 @@
+
+.section-falcon9 {
+  background-color: transparent;
+  color: #FFF;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.falcon-image {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/falcon9/falcon9.jpg");
+}
+
+.falcon-animates {
+  /* Add animation */
+}
+
+.falcon-shadowed {
+  font-size: 100px;
+  line-height: 85px;
+  font-family: 'D-DIN Bold';
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.falcon-animate {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.container-stats {
+  background-color: #000;
+  color: #FFF;
+  height: 246px;
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 12px;
+}
+
+.number {
+  margin: 0;
+  height: 140px;
+  font-size: 140px;
+  line-height: 140px;
+  font-weight: 200;
+}
+
+.label {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.reveal-inner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/falcon9/dark.jpg");
+}
+
+.reveal-inner-text {
+  width: 520px;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: left;
+}
+
+/* Carousel */
+.carousel {
+  width: 100%;
+  position: relative;
+  padding: 30px;
+}
+
+.next {
+  position: absolute;
+  background-color: transparent;
+  bottom: 30px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.next-img {
+  right: 50px;
+}
+.prev-img {
+  left: 50px;
+}
+
+.next-disabled {
+  opacity: 0.5;
+}
+
+.btn-carousel {
+  background-color: transparent;
+  border: none;
+}
+
+/* Pagination: circle */
+
+button.rec-dot{
+  background-color: #959597;
+  border: none;
+  background-color: none;
+  box-shadow: none;
+}
+
+button.rec-dot:hover {
+  color: none;
+  background-color: none;
+  box-shadow: none;
+}
+
+button.rec-dot:active, button.rec-dot:focus   {
+  background-color: #FFF;
+  box-shadow: none;
+}
+
+.falcon9-video {
+  background-image: url("../images/falcon9/flight.jpg");
+}
+
+.btn-play {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+}
+
+.falcon9-video-text {
+  position: absolute;
+  left: 50px;
+  bottom: 146px;
+  font-size: 20px;
+  line-height: 32px;
+}
+.falcon9-video-label {
+  width: 468px;
+  position: absolute;
+  left: 50px;
+  bottom: 85px;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: 'D-DIN Bold';
+}
+
+.section-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-center {
+  height: 137px;
+  width: 1px;
+  background-color: #FFFFFF;
+  margin-bottom: 50px;
+  margin-top: 75px;
+}
+
+.section-footer-a {
+  width: 544px;
+  padding: 0 68px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #696969;
+  margin-bottom: 17px;
+}
+
+.section-footer-a a {
+  text-decoration: none;
+  color: #FFF;
+  transition: opacity 0.37s ease;
+}
+
+.section-footer-a a:hover {
+  opacity: 0.7;
+}
+
+
+.section-btn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+
+.btn-download {
+  font-family: 'D-DIN';
+  font-weight: 700;
+  background-color: transparent;
+  height: 50px;
+  padding: 0 15px;
+  margin: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 50px;
+  border: 2px solid #FFF;
+  letter-spacing: 0.75px;
+  color: #FFF;
+  text-align: center;
+  z-index: 5;
+}
+
+.btn-download:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleY(0);
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  transform-origin: right top;
+  transition: transform 0.25s ease-out;
+}
+
+.btn-download:hover:after {
+  transform: scaleY(1);
+  transform-origin: right bottom;
+}
+
+.btn-download:hover .btn-download-text {
+  color: #000;
+  transition: color 0.25s ease-in-out;
+}
+
+.btn-download-text {
+  z-index: 3;
+  color: #FFF;
+  transition: color 0.25s ease-in-out;
+}
+
+@media (max-width: 944px) {
+  .falcon-shadowed {
+    font-size: 69px;
+    line-height: 65px;
+  }
+
+  .falcon-animate {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'D-DIN Bold';
+  }
+
+  .container-stats {
+    width: 100%;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  .number {
+    font-size: 72px;
+    line-height: 72px;
+    height: 72px;
+  }
+
+  .label {
+    font-size: 12px;
+    margin-top: 0;
+  }
+
+  .reveal-inner {
+    justify-content: center;
+  }
+
+  .reveal-inner-text {
+    width: 420px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .next {
+    height: 10px;
+    bottom: 120px;
+  }
+  .prev-img {
+    left: 100vw;
+    transform: translateX(-80px);
+  }
+
+  .next-img {
+    right: 20px;
+  }
+
+  button.rec-dot {
+    opacity: 0;
+  }
+
+  .falcon9-video-text {
+    bottom: 186px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'D-DIN Bold';
+  }
+}
+
+
+
+@media (max-width: 584px) {
+  .number {
+    font-size: 48px;
+    line-height: 55px;
+    height: 55px;
+  }
+
+  .label {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .section-footer-a {
+    width: 347px;
+    padding: 0;
+  }
+
+  .section-btn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 50px;
+  }
+
+  .btn-download {
+    width: 100%;
+    margin: 9px 0;
+  }
+
+  .reveal-inner-text {
+    width: 200px;
+  }
+}
+
+@media (max-width: 450px) {
+  .section-btn {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 1184px) {
+  .reveal-inner-text {
+    width: 420px;
+  }
+
+  .falcon9-video-text {
+    bottom: 188px;
+    line-height: 32px;
+  }
+  .falcon9-video-label {
+    width: 300px;
+    bottom: 85px;
+    font-size: 48px;
+    line-height: 48px;
+    font-family: 'D-DIN Bold';
+  }
+}

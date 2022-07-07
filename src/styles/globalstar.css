@@ -48,6 +48,10 @@
   margin-right: auto;
 }
 
+.ses-bg-image {
+  background-image: url("../images/home/ses-22.webp");
+}
+
 .globalstar-bg-image {
   background-image: url("../images/home/globalstar.jpg");
 }

@@ -14,6 +14,7 @@ import Rideshare from './pages/Rideshare';
 import Starship from './pages/Starship';
 
 import Player from './components/Player';
+import Ses22 from './sections/Ses22';
 import Globalstar from './sections/Globalstar';
 import Sarah1 from './sections/Sarah1';
 import StarshipUpdate from './sections/StarshipUpdate';
@@ -35,13 +36,16 @@ function App() {
           <Route path='/mission' element={<Mission />} />
           <Route path='/launches' element={<Launches />} />
 
+          <Route path='/ses-22' element={<Ses22 />} />
           <Route path='/globalstar' element={<Globalstar />} />
           <Route path='/sarah1' element={<Sarah1 />} />
           <Route path='/updates' element={<StarshipUpdate />} />
 
 
+          <Route path='/ses-22/video' element={<Player url="https://www.youtube.com/watch?v=ZjUvXWg2_fE" />} />
           <Route path='/globalstar/video' element={<Player url="https://www.youtube.com/watch?v=94cClvOFWH4&t=4s" />} />
           <Route path='/sarah1/video' element={<Player url="https://www.youtube.com/watch?v=lCX-KUCn4A4" />} />
+          <Route path='/falcon9/video' element={<Player url="https://www.youtube.com/watch?v=Z4TXCZG_NEY" />} />
           
         </Routes>
         <Footer />

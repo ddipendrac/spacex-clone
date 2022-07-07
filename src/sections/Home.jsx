@@ -10,6 +10,20 @@ function Home() {
         <div className='animates'>
           <h4 className='animate'>RECENT LAUNCH</h4>
           <h2 className=' shadowed'>
+            SES-22 MISSION
+          </h2>
+          <Link to='/ses-22' className='btn-swipe' >
+            <span className='btn-swipe-text'>
+            REWATCH
+            </span>
+          </Link>
+        </div>
+        <img src='./images/ArrowDown.png' alt='logo' className='scrollme' />
+      </div>
+      <div className='section-inner section-2'>
+        <div className='animates'>
+          <h4 className='animate'>RECENT LAUNCH</h4>
+          <h2 className=' shadowed'>
             GLOBALSTAR FM15 MISSION
           </h2>
           <Link to='/globalstar' className='btn-swipe' >
@@ -21,7 +35,7 @@ function Home() {
         <img src='./images/ArrowDown.png' alt='logo' className='scrollme' />
       </div>
 
-      <div className='section-inner section-2'>
+      <div className='section-inner section-3'>
         <div className='animates'>
           <h4 className='animate'>RECENT LAUNCH</h4>
           <h2 className=' shadowed'>
@@ -37,7 +51,7 @@ function Home() {
         <img src='./images/ArrowDown.png' alt='logo' className='scrollme' />
       </div>
 
-      <div className='section-inner section-3'>
+      <div className='section-inner section-4'>
         <div className='animates'>
           
           <h2 className=' shadowed'>
@@ -52,7 +66,7 @@ function Home() {
           <img src='./images/ArrowDown.png' alt='logo' className='scrollme' />
       </div>
 
-      <div className='section-inner section-4'>
+      <div className='section-inner section-5'>
         <div className='animates'>
           
           <h2 className=' shadowed long-text'>
