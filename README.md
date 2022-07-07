@@ -2,16 +2,21 @@
 
 # Preview
 
+https://user-images.githubusercontent.com/76725537/177725261-6ce00c9b-db7a-4cdb-9a9a-4e2cc09e2aa8.mp4
 
-https://user-images.githubusercontent.com/76725537/176867550-4aa362ec-58ad-4fc2-80c8-f961a1113125.mp4
+# Screenshots
 
+![Screenshot (99)](https://user-images.githubusercontent.com/76725537/177725887-2f736d4b-8305-479c-8210-a8630595367d.png)
+![Screenshot (100)](https://user-images.githubusercontent.com/76725537/177725901-0079b014-f8e6-4175-8b7d-868f3fa1d33d.png)
+![Screenshot (102)](https://user-images.githubusercontent.com/76725537/177725926-1e75cfab-66ee-4a69-8b8a-14c535d5a7b2.png)
+![Screenshot (101)](https://user-images.githubusercontent.com/76725537/177725938-66020852-dc6f-4199-8ffb-cc3b4cb2ab9a.png)
 
 
 # About
   * This is clone of SpaceX website.
   * It is built in react.
   * Responsive: It is responsive site.
-  * Some pages are in development and will be updated soon
+  * It is deployed in netlify. So, you can have a live demo by just clicking on the link provided above.
 
 # Getting Started with Create React App
 
