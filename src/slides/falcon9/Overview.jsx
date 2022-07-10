@@ -1,10 +1,14 @@
 import React from 'react'
 import '../../styles/overview.css'
+import f91 from '../../assets/f91.mp4'
+import PlayerBG from '../../components/PlayerBG'
 
 function Overview() {
   return (
     <div className='overview'>
-      <div className='overview-text-1'>
+    <PlayerBG src={f91} className="video-bg" />
+    <div className='overview-text'>
+      <div className='overview-text-1 '>
         FALCON 9
       </div>
       <div className='overview-text-2'>
@@ -30,7 +34,7 @@ function Overview() {
       <div className='overview-divider' />
       <div className='overview-values height'>
         <div className='label'>
-         MASS
+        MASS
         </div>
         <div className='value'>
           549,054 kg<span className='overview-text-primary'>/ 1,207,920 lb</span>
@@ -68,6 +72,7 @@ function Overview() {
       </div>
       <div className='overview-divider' />
     </div>
+  </div>
   )
 }
 

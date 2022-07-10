@@ -26,20 +26,23 @@
   text-align: left;
 }
 
+.section-starlink-mission {
+  background-image: url("../images/home/starlink-mission.webp");
+} 
 .section-1 {
   background-image: url("../images/home/ses-22.webp");
 } 
 .section-2 {
-  background-image: url("../images/home/globalstar.jpg");
+  background-image: url("../images/home/globalstar.webp");
 } 
 .section-3 {
   background-image: url("../images/home/sarah-1-mission.jpg");
 } 
 .section-4 {
-  background-image: url("../images/home/update.jpg");
+  background-image: url("../images/home/update.webp");
 } 
 .section-5 {
-  background-image: url("../images/home/starship.png");
+  background-image: url("../images/home/starship.webp");
 } 
 
 .animates {

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/falcon9.css'
 import '../styles/overview.css'
+import '../styles/home.css'
 import CountUp from 'react-countup'
 import Carousel, { consts } from 'react-elastic-carousel'
 
@@ -79,14 +80,14 @@ function Falcon9() {
 
   return (
     <div className='section-falcon9'>
-
-      <div className='falcon-image faclon-bg-image'>
+      <div className='feature-image f9-feature-image'>
         <div className='falcon-animates'>
           <div className='falcon-shadowed'>
             FALCON 9
           </div>
           <div className='falcon-animate'>FIRST ORBITAL CLASS ROCKET CAPABLE OF REFLIGHT</div>
         </div>
+        <img src='./images/ArrowDown.png' alt='logo' className='scrollme' />
       </div>
 
       <div className='container-stats'>
@@ -125,7 +126,7 @@ function Falcon9() {
         </div>
       </div>
 
-      <div className='reveal-inner'>
+      <div className='reveal-inner f9-reveal-inner'>
         <p className='reveal-inner-text'>
         Falcon 9 is a reusable, two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of people and payloads into Earth orbit and beyond. Falcon 9 is the world’s first orbital class reusable rocket. Reusability allows SpaceX to refly the most expensive parts of the rocket, which in turn drives down the cost of space access.
         </p>
@@ -161,10 +162,12 @@ function Falcon9() {
         <Payload />
       </Carousel>
 
-      <Link to='/falcon9/video' className='falcon-image falcon9-video'>
+      <Link to='/falcon9/video' className='feature-image falcon9-video'>
         <img src='./images/playbutton.png' className='btn-play' />
-        <div className='falcon9-video-text'>VIDEO</div>
-        <div className='falcon9-video-label'>FALCON 9 IN FLIGHT</div>
+        <div className='video-text'>
+          <div className='falcon9-video-text'>VIDEO</div>
+          <div className='falcon9-video-label'>FALCON 9 IN FLIGHT</div>
+        </div>
       </Link>
 
       <div className={merlinClass}>

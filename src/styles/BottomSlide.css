@@ -37,40 +37,86 @@
 
 
 .bg-img-1 {
-  background-image: url("../images/falcon9/test.webp");
+  background-image: url("../images/falcon-9/F9_6.webp");
 }
 .bg-img-2 {
-  background-image: url("../images/falcon9/iridium8.jpg");
+  background-image: url("../images/falcon-9/F9_7.webp");
 }
 .bg-img-3 {
-  background-image: url("../images/falcon9/radarsat.jpg");
+  background-image: url("../images/falcon-9/F9_8.webp");
 }
 .bg-img-4 {
-  background-image: url("../images/falcon9/cape.webp");
+  background-image: url("../images/falcon-9/F9_9.webp");
 }
 .bg-img-5 {
-  background-image: url("../images/falcon9/moonrise.webp");
+  background-image: url("../images/falcon-9/F9_10.webp");
 }
 .bg-img-6 {
-  background-image: url("../images/falcon9/complex39.jpg");
+  background-image: url("../images/falcon-9/F9_DM2_LAUNCH_3840x2560.webp");
 }
 .bg-img-7 {
-  background-image: url("../images/falcon9/separate.webp");
+  background-image: url("../images/falcon-9/F9_1.webp");
 }
 .bg-img-8 {
-  background-image: url("../images/falcon9/iridium5.jpg");
+  background-image: url("../images/falcon-9/F9_2.webp");
 }
 .bg-img-9 {
-  background-image: url("../images/falcon9/droneship.webp");
+  background-image: url("../images/falcon-9/F9_3.webp");
 }
 .bg-img-10 {
-  background-image: url("../images/falcon9/liftoff.jpg");
+  background-image: url("../images/falcon-9/F9_4.webp");
 }
 .bg-img-11 {
-  background-image: url("../images/falcon9/vandenberg.webp");
+  background-image: url("../images/falcon-9/F9_5.webp");
 }
 .bg-img-12 {
-  background-image: url("../images/falcon9/flight.jpg");
+  background-image: url("../images/falcon-9/F9_2.webp");
+}
+.fh-bg-img-1 {
+  background-image: url("../images/falconheavy/FH_1.webp");
+}
+.fh-bg-img-2 {
+  background-image: url("../images/falconheavy/FH_2.webp");
+}
+.fh-bg-img-3 {
+  background-image: url("../images/falconheavy/FH_3.webp");
+}
+.fh-bg-img-4 {
+  background-image: url("../images/falconheavy/FH_4.webp");
+}
+.fh-bg-img-5 {
+  background-image: url("../images/falconheavy/FH_5.webp");
+}
+.fh-bg-img-6 {
+  background-image: url("../images/falconheavy/FH_6.webp");
+}
+.fh-bg-img-7 {
+  background-image: url("../images/falconheavy/FH_7.webp");
+}
+.fh-bg-img-8 {
+  background-image: url("../images/falconheavy/FH_8.webp");
+}
+.fh-bg-img-9 {
+  background-image: url("../images/falconheavy/FH_9.webp");
+}
+.fh-bg-img-10 {
+  background-image: url("../images/falconheavy/FH_10.webp");
+}
+
+.dr-bg-img-1 {
+  background-image: url("../images/dragon/D1.webp");
+}
+.dr-bg-img-2 {
+  background-image: url("../images/dragon/D2.webp");
+}
+.dr-bg-img-3 {
+  background-image: url("../images/dragon/D3.webp");
+}
+.dr-bg-img-4 {
+  background-image: url("../images/dragon/D4.webp");
+}
+.dr-bg-img-5 {
+  background-image: url("../images/dragon/D5.webp");
 }
 
 .img-text {

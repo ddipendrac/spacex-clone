@@ -62,24 +62,24 @@ function Header() {
         <Link className='nav-link btn-underline' to='/falcon9'>
           FALCON 9
         </Link>
-        <Link className='nav-link btn-underline ' to='/falcon9' >
+        <Link className='nav-link btn-underline ' to='/falcon-heavy' >
           FALCON HEAVY
         </Link>
-        <Link className='nav-link btn-underline ' to='/falcon9' >
+        <Link className='nav-link btn-underline ' to='/dragon' >
           DRAGON
         </Link>
-        <Link className='nav-link btn-underline ' to='/falcon9' >
+        <Link className='nav-link btn-underline ' to='/starship' >
           STARSHIP
         </Link>
-        <Link className='nav-link btn-underline ' to='/falcon9' >
+        <Link className='nav-link btn-underline ' to='/human-spaceflight' >
           HUMAN SPACEFLIGHT
         </Link>
-        <Link className='nav-link btn-underline ' to='/falcon9' >
+        <Link className='nav-link btn-underline ' to='/rideshare' >
           RIDESHARE
         </Link>
-        <Link className='nav-link btn-underline ' to='/falcon9' >
+        <a href='https://www.starlink.com/' className='nav-link btn-underline ' >
           STARLINK
-        </Link>
+        </a>
       </div>
 
       <div>

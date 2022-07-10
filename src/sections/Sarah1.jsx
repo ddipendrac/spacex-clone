@@ -45,15 +45,7 @@ function Sarah1() {
       </Link>
 
       <div className='date'>
-        <div className='month date-text'>
-          JUNE
-        </div>
-        <div className='day date-text'>
-          18,
-        </div>
-        <div className='year date-text'>
-          2022
-        </div>
+       JUNE 18, 2022
       </div>
 
       <div className='shadowed-launch'>

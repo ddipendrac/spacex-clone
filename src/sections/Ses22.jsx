@@ -45,15 +45,7 @@ function Ses22() {
       </Link>
 
       <div className='date'>
-        <div className='month date-text'>
-          JUNE
-        </div>
-        <div className='day date-text'>
-          29,
-        </div>
-        <div className='year date-text'>
-          2022
-        </div>
+        JUNE 19, 2022
       </div>
 
       <div className='shadowed-launch'>

@@ -6,7 +6,7 @@
   width: 100vw;
 }
 
-.falcon-image {
+.feature-image {
   position: relative;
   height: 100vh;
   width: 100%;
@@ -17,7 +17,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../images/falcon9/falcon9.jpg");
+}
+
+.f9-feature-image {
+  background-image: url("../images/falcon-9/f9_feature.webp");
+}
+.fh-feature-image {
+  background-image: url("../images/falconheavy/fh_feature.webp");
+}
+.dragon-feature-image {
+  background-image: url("../images/dragon/dragon_feature.webp");
 }
 
 .falcon-animates {
@@ -82,7 +91,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../images/falcon9/dark.jpg");
+}
+
+.f9-reveal-inner {
+  background-image: url("../images/falcon-9/WebsiteF9Fairings_Lines_Desktop.webp");
+}
+
+.fh-reveal-inner {
+  background-image: url("../images/falconheavy/WebsiteFHFairings_Lines_Desktop.webp");
+}
+
+.dragon-reveal-inner {
+  background-image: url("../images/dragon/DragonTrunk_Lines_Desktop.webp");
 }
 
 .reveal-inner-text {
@@ -145,30 +165,181 @@ button.rec-dot:active, button.rec-dot:focus   {
 }
 
 .falcon9-video {
-  background-image: url("../images/falcon9/flight.jpg");
+  background-image: url("../images/falcon-9/F9_2.webp");
+}
+
+.fh-video {
+  background-image: url("../images/falconheavy/fh_video.webp");
+}
+.dragon-video {
+  background-image: url("../images/dragon/dragon_video.webp");
+}
+
+.dragon-crew {
+  background-image: url("../images/dragon/dragon_humans.webp");
+  position: relative;
+}
+.dragon-draco {
+  background-image: url("../images/dragon/Draco.webp");
+}
+.dragon-superdraco {
+  background-image: url("../images/dragon/SuperDraco.webp");
+}
+
+.dragon-crew-text {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 520px;
+  padding-top: 80px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+.dragon-crew-text-big {
+  font-size: 46px;
+  line-height: 50px;
+  font-family: 'D-DIN Bold';
+  margin-bottom: 20px;
+
+}
+
+.dragon-crew-text-small {
+  font-size: 16px;
+  line-height: 25.6px;
+  margin-bottom: 47px;
+}
+
+.btn-swipe {
+  font-family: 'D-DIN';
+  font-weight: 700;
+  background-color: transparent;
+  height: 50px;
+  width: 168px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  border: 2px solid #FFF;
+  letter-spacing: 0.75px;
+}
+
+.btn-swipe:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleY(0);
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  transform-origin: right top;
+  transition: transform 0.25s ease-out;
+}
+
+.btn-swipe:hover:after {
+  transform: scaleY(1);
+  transform-origin: right bottom;
+}
+
+.btn-swipe:hover .btn-swipe-text {
+  color: #000;
+  transition: color 0.25s ease-in-out;
+}
+
+.btn-swipe-text {
+  z-index: 3;
+  color: #FFF;
+  transition: color 0.25s ease-in-out;
+}
+
+
+
+.side-img {
+  position: relative;
+  height: 100vh;
+  width: 58%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.side-img-dragon {
+  background-image: url('../images/dragon/parachute.webp');
 }
 
 .btn-play {
   position: absolute;
+  width: 35px;
   top: 50%;
   left: 52%;
+  transition: all 0.27s linear;
+  
+}
+
+.side-img-dragon:hover .btn-play-hover {
+  transform: scale(0.8);
+}
+
+.video-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 50px;
+  padding-bottom: 94px;
+  text-align: left;
 }
 
 .falcon9-video-text {
-  position: absolute;
-  left: 50px;
-  bottom: 146px;
   font-size: 20px;
   line-height: 32px;
 }
 .falcon9-video-label {
   width: 468px;
-  position: absolute;
-  left: 50px;
-  bottom: 85px;
   font-size: 48px;
   line-height: 48px;
   font-family: 'D-DIN Bold';
+}
+
+.video-and-text {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.v-and-t-text {
+  width: 42%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-left: 34px;
+}
+
+.text-big {
+  font-size: 46px;
+  line-height: 50px;
+  font-family: 'D-DIN Bold';
+  margin-bottom: 20px;
+}
+
+.text-small {
+  font-size: 16px;
+  line-height: 25.6px;
 }
 
 .section-content {
@@ -266,6 +437,30 @@ button.rec-dot:active, button.rec-dot:focus   {
   transition: color 0.25s ease-in-out;
 }
 
+
+@media (max-width: 1184px) {
+  .reveal-inner-text {
+    width: 420px;
+  }
+
+  .falcon9-video-text {
+    bottom: 188px;
+    line-height: 32px;
+  }
+  .falcon9-video-label {
+    width: 378px;
+    bottom: 85px;
+    font-size: 48px;
+    line-height: 48px;
+    font-family: 'D-DIN Bold';
+  }
+
+  .dragon-crew-text {
+    width: 420px;
+  }
+
+}
+
 @media (max-width: 944px) {
   .falcon-shadowed {
     font-size: 69px;
@@ -323,11 +518,71 @@ button.rec-dot:active, button.rec-dot:focus   {
   }
 
   .falcon9-video-text {
-    bottom: 186px;
     font-size: 15px;
     line-height: 20px;
     font-family: 'D-DIN Bold';
   }
+
+  .falcon9-video-label {
+    width: 378px;
+  }
+
+  .v-and-t-text {
+    padding-left: 5px;
+  }
+
+  .text-big {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .dragon-crew-text-big {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .dragon-crew-text-big {
+    margin-bottom: 15px;
+  }
+
+  .dragon-crew-text-small {
+    margin-bottom: 32px;
+  }
+}
+
+
+@media (max-width: 784px) {
+  .video-and-text {
+    flex-direction: column;
+    height: auto;
+    padding: 0 20px;
+  }
+
+  .v-and-t-text {
+    width: 100%;
+    margin-top: 65px;
+  }
+
+  .text-big {
+    width: 420px;
+    margin-bottom: 15px;
+  }
+
+  .text-small {
+    width: 420px;
+  }
+
+  .video-and-text-dragon {
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+  .side-img-dragon {
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    margin-right: 20px;
+  }
+
 }
 
 
@@ -365,28 +620,35 @@ button.rec-dot:active, button.rec-dot:focus   {
   .reveal-inner-text {
     width: 200px;
   }
+
+  .falcon9-video-label {
+    width: 443px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .dragon-crew-text {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 450px) {
   .section-btn {
     padding: 0 40px;
   }
-}
 
-@media (max-width: 1184px) {
-  .reveal-inner-text {
-    width: 420px;
-  }
-
-  .falcon9-video-text {
-    bottom: 188px;
-    line-height: 32px;
-  }
   .falcon9-video-label {
-    width: 300px;
-    bottom: 85px;
-    font-size: 48px;
-    line-height: 48px;
-    font-family: 'D-DIN Bold';
+    width: auto;
+  }
+
+  .v-and-t-text {
+    width: auto;
+  }
+
+  .text-big, 
+  .text-small {
+    width: auto;
   }
 }
+

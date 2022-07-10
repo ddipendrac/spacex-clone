@@ -6,6 +6,21 @@ function Home() {
 
   return (
     <div className='section'>
+      
+      <div className='section-inner section-starlink-mission'>
+        <div className='animates'>
+          <h4 className='animate'>RECENT LAUNCH</h4>
+          <h2 className=' shadowed'>
+            STARLINK MISSION
+          </h2>
+          <Link to='/starlink-mission' className='btn-swipe' >
+            <span className='btn-swipe-text'>
+            REWATCH
+            </span>
+          </Link>
+        </div>
+        <img src='./images/ArrowDown.png' alt='logo' className='scrollme' />
+      </div>
       <div className='section-inner section-1'>
         <div className='animates'>
           <h4 className='animate'>RECENT LAUNCH</h4>

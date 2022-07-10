@@ -11,7 +11,22 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../images/falcon9/overview.jpg");
+  
+}
+
+.overview-f9 {
+  background-image: url("../images/falcon-9/WebsiteF9Fairings_Render_Desktop.webp");
+}
+
+.overview-fh {
+  background-image: url("../images/falconheavy/WebsiteFHS1Legs_Render_Desktop.webp");
+}
+.overview-dragon {
+  background-image: url("../images/dragon/DragonTrunk_Render_Desktop.webp");
+}
+
+.overview-text {
+  position: absolute;
 }
 
 .first-overview {
@@ -30,36 +45,69 @@
 }
 
 .first-overview-img {
-  background-image: url("../images/falcon9/overview.jpg");
+  background-image: url("../images/falcon-9/WebsiteF9S1_Render_Desktop.webp");
 }
 .first-engines-img {
-  background-image: url("../images/falcon9/engines.jpg");
+  background-image: url("../images/falcon-9/WebsiteF9Engines_Render_Desktop.webp");
 }
 .first-landing-img {
-  background-image: url("../images/falcon9/legs.jpg");
+  background-image: url("../images/falcon-9/WebsiteF9S1Legs_Render_Desktop.webp");
+}
+
+.fh-first-overview-img {
+  background-image: url("../images/falconheavy/WebsiteFHFairings_Render_Desktop.webp");
+}
+.fh-first-engines-img {
+  background-image: url("../images/falconheavy/WebsiteFHEngines_Render_Desktop.webp");
+}
+.fh-first-landing-img {
+  background-image: url("../images/falconheavy/WebsiteFHS1Legs_Render_Desktop.webp");
 }
 
 .second-stage {
-  background-image: url("../images/falcon9/stage2.jpg");
+  background-image: url("../images/falcon-9/WebsiteF9S2_Render_Desktop.webp");
+}
+.fh-second-stage {
+  background-image: url("../images/falconheavy/WebsiteFHS2_Render_Desktop.webp");
 }
 
 .interstage {
-  background-image: url("../images/falcon9/interstage.jpg");
+  background-image: url("../images/falcon-9/WebsiteF9Interstage_Render_Desktop.webp");
+}
+
+.fh-interstage {
+  background-image: url("../images/falconheavy/WebsiteFHInterstage_Render_Desktop.webp");
 }
 .payload-fairing {
-  background-image: url("../images/falcon9/payload.jpg");
+  background-image: url("../images/falcon-9/WebsiteF9SoloFairings_Render_Desktop.webp");
 }
 .payload-dragon {
-  background-image: url("../images/falcon9/dragon.jpg");
+  background-image: url("../images/falcon-9/WebsiteF9SoloDragon_Render_Desktop.webp");
+}
+.fh-payload {
+  background-image: url("../images/falconheavy/WebsiteFHSoloFairings_Render_Desktop.webp");
 }
 
 /* BG image for merlin */
 .merlin-sea-level {
-  background-image: url("../images/falcon9/sealevel.jpg");
+  background-image: url("../images/falcon-9/Merlin.webp");
 }
 
 .merlin-vacuum {
-  background-image: url("../images/falcon9/vacuum.jpg");
+  background-image: url("../images/falcon-9/MerlinVac.webp");
+}
+
+.dragon-trunk {
+  background-image: url("../images/dragon/Trunk_Render_Desktop.webp");
+}
+.dragon-capsule-overview-img {
+  background-image: url("../images/dragon/Dragon_Render_Desktop.webp");
+}
+.dragon-capsule-launch-img {
+  background-image: url("../images/dragon/DragonEscape_Desktop.webp");
+}
+.dragon-capsule-attitude-img {
+  background-image: url("../images/dragon/DragonDraco_Desktop.webp");
 }
 
 .overview-text-1 {
@@ -235,11 +283,12 @@
 @media (max-width: 500px) {
   .overview-text-1 {
     font-size: 15px;
-    left: 60px;
+    left: 30px;
+    width: 50%;
   }
 
   .overview-text-2 {
     font-size: 32px;
-    left: 60px;
+    left: 30px;
   }
 }

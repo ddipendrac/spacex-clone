@@ -4,6 +4,11 @@
   height: 60vh;
 }
 
+.player-side {
+  width: 58%;
+  object-fit: cover;
+}
+
 .react-player {
   position: absolute;
   top: 0;
@@ -14,6 +19,12 @@
 @media (max-width: 960px ) {
   .react-player {
     padding: 50px;
+  }
+}
+
+@media (max-width: 784px) {
+  .player-side {
+    width: 100%;
   }
 }
 
