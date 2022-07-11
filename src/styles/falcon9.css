@@ -19,6 +19,7 @@
   background-position: center;
 }
 
+/* Feature images of pages */
 .f9-feature-image {
   background-image: url("../images/falcon-9/f9_feature.webp");
 }
@@ -28,6 +29,20 @@
 .dragon-feature-image {
   background-image: url("../images/dragon/dragon_feature.webp");
 }
+
+/* Starship img */
+.starship-feature-image {
+  background-image: url("../images/starship/STARSHIP_SN15_Desktop.webp");
+}
+
+.starship-video {
+  background-image: url("../images/starship/starship_video.webp");
+}
+
+.landing-on-mars {
+  background-image: url("../images/starship/mars_landing.webp");
+}
+
 
 .falcon-animates {
   /* Add animation */
@@ -93,6 +108,8 @@
   background-position: center;
 }
 
+/* Reveal Inner Image */
+
 .f9-reveal-inner {
   background-image: url("../images/falcon-9/WebsiteF9Fairings_Lines_Desktop.webp");
 }
@@ -103,6 +120,10 @@
 
 .dragon-reveal-inner {
   background-image: url("../images/dragon/DragonTrunk_Lines_Desktop.webp");
+}
+
+.starship-reveal-inner {
+  background-image: url("../images/starship/WebsiteStarshipStack_Lines_Desktop.webp");
 }
 
 .reveal-inner-text {
@@ -437,6 +458,101 @@ button.rec-dot:active, button.rec-dot:focus   {
   transition: color 0.25s ease-in-out;
 }
 
+/* Starship Description */
+
+.starship-desc {
+  width: 100%;
+  background-color: #000;
+  padding: 115px 50px;
+  display: flex;
+  flex-direction: row;
+
+}
+.starship-desc-left {
+  margin-right: 30px;
+}
+.starship-desc-right {
+  margin-left: 30px;
+}
+.starship-desc-text {
+  margin-bottom: 15px;
+  line-height: 25.6px;
+}
+
+.raptor {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.raptor-img-container {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.raptor-img {
+  background-image: url('../images/starship/Raptor.webp');
+}
+
+.raptor-text {
+  position: absolute;
+  padding: 0 50px;
+  width: 520px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  z-index: 2;
+}
+
+.dragon-crew-text-medium {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'D-DIN Bold';
+  margin-bottom: 5px;
+}
+
+.raptor-values {
+  width: 100%;
+  height: 58px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.raptor-divider {
+  height: 1px;
+  width: 100%;
+  background-color: #515150;
+}
+
+/* 1st private lunar mission */
+.private-lunar {
+  height: 100vh;
+  width: 58%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.private-lunar-img {
+  background-image: url('../images/starship/private_lunar_mission.webp');
+}
+
 
 @media (max-width: 1184px) {
   .reveal-inner-text {
@@ -456,6 +572,10 @@ button.rec-dot:active, button.rec-dot:focus   {
   }
 
   .dragon-crew-text {
+    width: 420px;
+  }
+
+  .raptor-text {
     width: 420px;
   }
 
@@ -501,7 +621,7 @@ button.rec-dot:active, button.rec-dot:focus   {
   }
 
   .next {
-    height: 10px;
+    height: 15px;
     bottom: 120px;
   }
   .prev-img {
@@ -583,6 +703,29 @@ button.rec-dot:active, button.rec-dot:focus   {
     margin-right: 20px;
   }
 
+  .private-lunar {
+    width: 100%;
+    margin-right: 20px;
+  }
+  .video-and-text {
+    margin-bottom: 50px;
+  }
+
+}
+
+/* For starship desc */
+@media (max-width: 684px) {
+  .starship-desc {
+    flex-direction: column;
+  }
+
+  .starship-desc-left {
+    margin-right: 0;
+  }
+
+  .starship-desc-right {
+    margin-left: 0;
+  }
 }
 
 
@@ -629,7 +772,21 @@ button.rec-dot:active, button.rec-dot:focus   {
 
   .dragon-crew-text {
     width: 100%;
-    padding: 0 20px;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .raptor {
+    flex-direction: column;
+    height: 200vh;
+  }
+
+  .raptor-text {
+    width: 100%;
+    padding-right: 50px;
+    margin-top: 100vh;
   }
 }
 
@@ -649,6 +806,11 @@ button.rec-dot:active, button.rec-dot:focus   {
   .text-big, 
   .text-small {
     width: auto;
+  }
+
+  .private-lunar {
+    height: 70vh;
+    margin: 0 20px;
   }
 }
 

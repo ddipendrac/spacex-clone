@@ -195,6 +195,23 @@
 
 } 
 
+/* For Starship - Feature*/
+@media (max-width:944px) {
+  .animate-secondary {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'D-DIN Bold';
+    margin-bottom: -20px;
+  }
+
+  .shadowed-secondary {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'D-DIN Bold';
+    margin-bottom: 17px;
+  }
+}
+
 
 @media (max-width: 600px) {
   .section-inner {

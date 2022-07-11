@@ -17,10 +17,10 @@ function Hamburger() {
     // detects new state and compares it with the new one
     if ((document.body.getBoundingClientRect()).top > scrollPos) {
       hamburger.style.opacity = '1'
-      console.log('scrolling down')
+      // console.log('scrolling down')
     } else {
       hamburger.style.opacity = '0'
-      console.log('scrolling up')	
+      // console.log('scrolling up')	
     }
     // saves the new position for iteration.
     scrollPos = (document.body.getBoundingClientRect()).top;

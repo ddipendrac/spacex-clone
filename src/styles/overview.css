@@ -44,6 +44,7 @@
   background-position: center;
 }
 
+/* F9 First slide */
 .first-overview-img {
   background-image: url("../images/falcon-9/WebsiteF9S1_Render_Desktop.webp");
 }
@@ -54,6 +55,7 @@
   background-image: url("../images/falcon-9/WebsiteF9S1Legs_Render_Desktop.webp");
 }
 
+/* FH 1st slide */
 .fh-first-overview-img {
   background-image: url("../images/falconheavy/WebsiteFHFairings_Render_Desktop.webp");
 }
@@ -108,6 +110,22 @@
 }
 .dragon-capsule-attitude-img {
   background-image: url("../images/dragon/DragonDraco_Desktop.webp");
+}
+
+/* Starship 1st slide */
+.sr-starship {
+  background-image: url("../images/starship/WebsiteStarship_Render_Desktop.webp");
+}
+
+.sr-super-heavy {
+  background-image: url("../images/starship/WebsiteSuperHeavy_Render_Desktop.webp");
+}
+
+.sr-payload-crew {
+  background-image: url("../images/starship/WebsiteStarshipShowcase_Render_Desktop.webp");
+}
+.sr-payload-cargo {
+  background-image: url("../images/starship/WebsiteStarshipShowcaseCargo_Render_Desktop.webp");
 }
 
 .overview-text-1 {

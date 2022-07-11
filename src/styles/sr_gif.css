@@ -1,0 +1,95 @@
+
+.sr-gif {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sr-gif-text {
+  width: 442px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sr-gif-text-medium {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.sr-gif-text-big {
+  font-size: 48px;
+  line-height: 48px;
+  font-family: 'D-DIN Bold';
+  margin-bottom: 20px;
+}
+
+.sr-gif-text-small {
+  line-height: 25.6px;
+}
+
+.sattelites {
+  background-image: url("../images/starship/CAPABILITIES__SATELLITE.gif");
+}
+
+.space-station {
+  background-image: url("../images/starship/CAPABILITIES__ISS.gif");
+}
+
+.interplanetary {
+  background-image: url("../images/starship/CAPABILITIES__INTERPLANETARY.gif");
+}
+ 
+.moon-mission {
+  background-image: url("../images/starship/CAPABILITIES__MOON.gif");
+}
+
+@media (max-width: 1184px) {
+  .sr-gif-text {
+    width: 357px;
+  }
+}
+
+@media (max-width: 944px) {
+  .sr-gif-text {
+    width: 300px;
+      
+  }
+
+  .sr-gif {
+    background-size: contain;
+    align-items: flex-end;
+  }
+
+  .sr-gif-text-small {
+    height: 0;
+  }
+}
+
+@media (max-width: 544px) {
+  .sr-gif-text-small {
+    height: auto;
+  }
+  .sr-gif-text-medium {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .sr-gif-text-big {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .sr-gif-text {
+    width: 323px;
+  }
+}
+
+

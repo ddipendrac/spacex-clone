@@ -61,7 +61,7 @@ function FHFirstStage() {
   return (
     <div className={firstStageClass}>
       <div className='overview-text-1'>
-        FALCON 9
+        FALCON HEAVY
       </div>
       <div className='overview-text-2'>
         FIRST STAGE

@@ -52,6 +52,8 @@ function App() {
           <Route path='/falcon-heavy/video' element={<Player url="https://www.youtube.com/watch?v=A0FZIwabctw" />} />
           <Route path='/dragon/video' element={<Player url="https://www.youtube.com/watch?v=78ATfCaBn6E" />} />
           <Route path='/dragon-parachute/video' element={<Player url="https://www.youtube.com/watch?v=ulVZds71CZQ&list=WL&index=43" />} />
+          <Route path='/starship/video' element={<Player url="https://www.youtube.com/watch?v=z9eoubnO-pE&feature=emb_title" />} />
+          <Route path='/starship-update/video' element={<Player url="https://www.youtube.com/watch?v=sOpMrVnjYeY" />} />
           
         </Routes>
         <Footer />

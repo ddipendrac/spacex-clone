@@ -25,7 +25,7 @@
 .hamburger-container {
   position: fixed;
   background-color: #000;
-  right: 0px;
+  right: 0;
   height: 1500px;
   /* width: 350px; */
   transition: width 0.6s ease-out;

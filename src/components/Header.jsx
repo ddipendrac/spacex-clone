@@ -20,7 +20,7 @@ function Header() {
       btnShop.style.opacity = '1'
 
       var top  = window.pageYOffset || document.documentElement.scrollTop
-      console.log(top)
+      // console.log(top)
 
       if(top > 615) {
         header.style.height = '100px'
@@ -34,7 +34,7 @@ function Header() {
     } else {
       var top  = window.pageYOffset || document.documentElement.scrollTop
 
-      console.log(top)
+      // console.log(top)
 
       logo.style.opacity = '0'
       navLinks.style.opacity = '0'

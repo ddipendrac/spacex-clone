@@ -119,6 +119,38 @@
   background-image: url("../images/dragon/D5.webp");
 }
 
+/* Starship bottom slide img */
+.sr-bg-img-1 {
+  background-image: url("../images/starship/sr1.webp");
+}
+.sr-bg-img-2 {
+  background-image: url("../images/starship/sr2.webp");
+}
+.sr-bg-img-3 {
+  background-image: url("../images/starship/sr3.webp");
+}
+.sr-bg-img-4 {
+  background-image: url("../images/starship/sr4.webp");
+}
+.sr-bg-img-5 {
+  background-image: url("../images/starship/sr5.webp");
+}
+.sr-bg-img-6 {
+  background-image: url("../images/starship/sr6.webp");
+}
+.sr-bg-img-7 {
+  background-image: url("../images/starship/sr7.webp");
+}
+.sr-bg-img-8 {
+  background-image: url("../images/starship/sr8.webp");
+}
+.sr-bg-img-9 {
+  background-image: url("../images/starship/sr9.webp");
+}
+.sr-bg-img-10 {
+  background-image: url("../images/starship/sr10.webp");
+}
+
 .img-text {
   background-color: #000;
   position: absolute;
